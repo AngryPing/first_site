@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.invs{
+	color:rgba(255,255,255,0);
+}
+
+h1,h2{
+	text-transform: uppercase;
+}
+.content{
+	font-family: 'Raleway', sans-serif;
+}
+.menu{
+	background-color:#303030 ;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.text-logo{
+	font-family: 'Oleo Script', cursive;
+	color: white;
+	font-size: 30px;
+	margin-left: 20%;
+	text-decoration: none;
+}
+
+.menu-links{
+	margin-left: 25%;
+}
+
+.menu-links>a{
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	text-decoration: none;
+	color:white;
+	margin-right: 24px;
+}
+
+.menu-links>a:hover{
+	border-bottom: 4px solid #7b6c63;
+}
+
+.img-main{
+	background:url(https://cdn1.savepice.ru/uploads/2018/12/31/66a9cec9a604c1cbef77fb004915dd10-full.png);
+	background-size: cover;
+	height:566px;
+}
+
+.text-main{
+	margin-left: 270px;
+
+}
+.text-main{
+	color: white;
+
+}
+.text-main>h1{
+	font-size: 48px;
+	font-family: 'Raleway', sans-serif;
+}
+.text-main>h2{
+	margin-top:140px;
+	font-size: 16pt;
+	font-family: 'Raleway', sans-serif;
+}
+.text-main>a{
+	text-transform: uppercase;
+	margin-top: 100px;
+	text-decoration: none;
+	color:white;
+	background: rgba(45%,49%,58%,17%);
+	padding: 15px 50px 15px 50px;
+	border-radius:3px;
+}
+
+.know-about{
+	height: 350px;
+	background: white;
+	color: #7b6c63;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+.know-about>h1{
+	margin-top: 92px;
+	font-size: 40pt;
+}
+.know-about>p{
+	font-size: 18pt;
+}
+.border{
+	margin:45px 47.5%;
+	border-bottom: 6px solid #7b6c63;
+}
+.we-thebest{
+	height: 574px;
+	background: #f5f5f5;
+}
+.text-wtb{
+	margin-top: 60px;
+	margin-left: 15%;
+	font-family: 'Raleway', sans-serif;
+}
+.text-wtb>h2{	
+	font-size: 24pt;
+	color: #7b6c63;
+}
+.text-wtb>p{
+	font-size: 16pt;
+	color:#7b6c63;
+}
+.text-wtb>a{
+	text-transform: uppercase;
+	transition: all .5s linear;
+	text-decoration: none;
+	color: black;
+	border:2px solid black;
+	padding:10px;
+	font-size: 16pt;
+	border-radius: 20px;
+}
+
+.text-wtb>img{
+	position: absolute;
+	top: 1100px;
+	left: 63%;
+	height: 500px;
+	width: 425px;
+}
+
+.text-wtb>a:hover{
+	transition: all .5s linear;
+	background: #d5d5d5;
+}
+
+.service-provade{
+	color: #7b6c63;
+	background: white;
+	height:550px;
+}
+.text-sp{
+	margin-top: 90px;
+	text-align: center;
+}
+.text-sp>p{
+	font-size: 14pt;
+}
+
+.qual>p{
+	font-size: 14pt;
+}
+.qualitys{
+	justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
